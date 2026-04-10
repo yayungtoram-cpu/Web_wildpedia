@@ -556,17 +556,17 @@ a { text-decoration: none; color: inherit; transition: var(--ease); }
 
 /* Biome themes for category cards */
 .biome-savanna { background: linear-gradient(145deg, #78350f, #d97706); }
-.biome-savanna::before { background-image: url("./kategori fauna/mamalia.jpg"); }
+.biome-savanna::before { background-image: url("./kategori-fauna/mamalia.png"); }
 .biome-sky     { background: linear-gradient(145deg, #0c4a6e, #0284c7); }
-.biome-sky::before { background-image: url("./kategori fauna/aves.jpg"); }
+.biome-sky::before { background-image: url("./kategori-fauna/aves.jpeg"); }
 .biome-desert  { background: linear-gradient(145deg, #451a03, #b45309); }
-.biome-desert::before { background-image: url("./kategori fauna/reptile.jpg"); }
+.biome-desert::before { background-image: url("./kategori-fauna/reptile.jpg"); }
 .biome-wetland { background: linear-gradient(145deg, #064e3b, #059669); }
-.biome-wetland::before { background-image: url("./kategori fauna/amfibia.webp"); }
+.biome-wetland::before { background-image: url("./kategori-fauna/amfibia.jpg"); }
 .biome-ocean   { background: linear-gradient(145deg, #0f172a, #1e3a5f); }
-.biome-ocean::before { background-image: url("./kategori fauna/ikan.jpg"); }
+.biome-ocean::before { background-image: url("./kategori-fauna/ikan-pisces.png"); }
 .biome-forest  { background: linear-gradient(145deg, var(--g900), var(--g700)); }
-.biome-forest::before { background-image: url("./kategori fauna/serangga.webp"); }
+.biome-forest::before { background-image: url("./kategori-fauna/serangga.png"); }
 
 .cat-bg-art {
   display: none;
@@ -580,15 +580,35 @@ a { text-decoration: none; color: inherit; transition: var(--ease); }
 }
 
 .cat-emoji {
-  display: none;
+  width: 100%;
+  max-width: 140px;
+  height: 140px;
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
 }
 
-.biome-savanna .cat-emoji { background: rgba(255, 236, 209, 0.28); }
-.biome-sky .cat-emoji { background: rgba(191, 219, 254, 0.28); }
-.biome-desert .cat-emoji { background: rgba(255, 244, 199, 0.30); }
-.biome-wetland .cat-emoji { background: rgba(209, 250, 229, 0.28); }
-.biome-ocean .cat-emoji { background: rgba(219, 234, 254, 0.28); }
-.biome-forest .cat-emoji { background: rgba(229, 231, 235, 0.28); }
+.cat-emoji img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.biome-savanna .cat-emoji { background: rgba(255, 236, 209, 0.15); border-color: rgba(251, 191, 36, 0.3); }
+.biome-sky .cat-emoji { background: rgba(191, 219, 254, 0.15); border-color: rgba(56, 189, 248, 0.3); }
+.biome-desert .cat-emoji { background: rgba(255, 244, 199, 0.15); border-color: rgba(234, 88, 12, 0.3); }
+.biome-wetland .cat-emoji { background: rgba(209, 250, 229, 0.15); border-color: rgba(16, 185, 129, 0.3); }
+.biome-ocean .cat-emoji { background: rgba(219, 234, 254, 0.15); border-color: rgba(2, 132, 199, 0.3); }
+.biome-forest .cat-emoji { background: rgba(229, 231, 235, 0.15); border-color: rgba(107, 114, 128, 0.3); }
 
 .cat-body h3 {
   font-family: var(--font-display);

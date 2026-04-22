@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Endemik – Wildpedia</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,400&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== HEADER (sama dengan index.html) ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-mark">🌿</div>
+        <div class="logo-words">
+          <span class="logo-wild">wild</span><span class="logo-pedia">pedia</span>
+        </div>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Beranda</a>
+        <a href="index.html#tentang">Tentang</a>
+        <a href="index.html#kategori">Kategori</a>
+        <a href="index.html#fauna">Ensiklopedia</a>
+        <a href="index.html#konservasi">Konservasi</a>
+        <a href="index.html#kontak">Kontak</a>
+        <a href="portfolio.html" class="nav-galeri">🦚 Galeri Endemik</a>
+      </nav>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Buka Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO PORTFOLIO ===== -->
+    <section class="portfolio-hero">
+      <div class="portfolio-hero-content">
+        <span class="hero-eyebrow">🇮🇩 Hanya Ada di Indonesia</span>
+        <h1>Galeri Fauna<br><em>Endemik Nusantara</em></h1>
+        <p>
+          Indonesia adalah rumah bagi ribuan spesies yang tidak bisa ditemukan di manapun di dunia.
+          Kenali mereka sebelum terlambat — beberapa sudah berada di ambang kepunahan.
+        </p>
+        <a href="#galeri" class="btn btn-glow">Lihat Galeri ↓</a>
+
+        <div class="portfolio-stats">
+          <div class="ps-item">
+            <span class="ps-num">±1.700</span>
+            <span class="ps-label">Spesies Endemik</span>
+          </div>
+          <div class="ps-item">
+            <span class="ps-num">#2</span>
+            <span class="ps-label">Negara Megabiodiversitas</span>
+          </div>
+          <div class="ps-item">
+            <span class="ps-num">17.000+</span>
+            <span class="ps-label">Pulau di Indonesia</span>
+          </div>
+          <div class="ps-item">
+            <span class="ps-num">60%+</span>
+            <span class="ps-label">Spesies Terancam Punah</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== GALERI KARTU ===== -->
+    <section class="gallery-section" id="galeri">
+      <div class="container">
+        <div class="gallery-intro">
+          <p class="tag-label">Profil Spesies</p>
+          <h2 class="heading-2">Fauna Endemik Pilihan</h2>
+          <p>
+            Setiap spesies di bawah ini hanya bisa ditemukan di pulau tertentu di Indonesia.
+            Mereka adalah warisan alam yang tak ternilai — dan kini membutuhkan perlindungan kita.
+          </p>
+        </div>
+
+        <div class="endemic-grid">
+
+          <!-- CARD 1: Tarsius Sulawesi -->
+          <article class="endemic-card">
+            <div class="ec-banner island-sulawesi">
+              <div class="ec-animal-icon"><img src="./gallery-endemic/tarsius-sulawesi.jpg" alt="Tarsius Sulawesi" onerror="this.parentElement.innerHTML='🐒'"></div>
+              <span class="ec-island-tag">Sulawesi</span>
+              <span class="ec-status vuln">Rentan</span>
+            </div>
+            <div class="fc-silhouette"><svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="22" r="14" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/><circle cx="88" cy="18" r="7" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/><circle cx="112" cy="18" r="7" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/><path d="M92,35 Q88,45 85,60 Q92,62 96,55 L100,42 L104,55 Q108,62 115,60 Q112,45 108,35 Z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/><path d="M92,40 Q75,45 65,55 Q70,60 78,56" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" fill="none"/><path d="M108,40 Q125,45 135,55 Q130,60 122,56" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" fill="none"/><path d="M100,60 Q98,72 100,75 Q102,72 100,60" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" fill="none"/></svg></div>
+            <div class="ec-body">
+              <span class="ec-group-tag mamalia">Mamalia</span>
+              <h3 class="ec-name">Tarsius Sulawesi</h3>
+              <em class="ec-latin">Tarsius tarsier</em>
+              <p class="ec-desc">
+                Primata terkecil di dunia dengan mata sebesar bola golf relatif terhadap tubuhnya.
+                Tidak bisa menggerakkan bola mata — sebagai gantinya, kepalanya bisa berputar 180°
+                seperti burung hantu. Aktif di malam hari dan berburu serangga.
+              </p>
+              <div class="ec-facts">
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Bobot</span>
+                    <span>80–165 gram</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Panjang</span>
+                    <span>10–15 cm</span>
+                  </div>
+                </div>
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Masa Hidup</span>
+                    <span>12–20 tahun</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Habitat</span>
+                    <span>Hutan sekunder</span>
+                  </div>
+                </div>
+              </div>
+              <div class="ec-unique">
+                🌟 <strong>Fakta Unik:</strong> Tarsius adalah satu-satunya primata yang 100% karnivora — mereka hanya memakan serangga, kadal kecil, dan ular kecil. Tidak pernah memakan buah atau daun sama sekali.
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 2: Cendrawasih Merah -->
+          <article class="endemic-card">
+            <div class="ec-banner island-papua">
+              <div class="ec-animal-icon"><img src="./gallery-endemic/Cendrawasih-merah-papua-barat.jpg" alt="Cendrawasih Merah" onerror="this.parentElement.innerHTML='🦚'"></div>
+              <span class="ec-island-tag">Papua Barat</span>
+              <span class="ec-status nt">Hampir Terancam</span>
+            </div>
+            <div class="fc-silhouette"><svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><ellipse cx="100" cy="38" rx="18" ry="14" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/><circle cx="100" cy="22" r="10" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/><path d="M100,30 Q82,35 55,28 Q70,38 88,40" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/><path d="M100,30 Q118,35 145,28 Q130,38 112,40" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/><path d="M95,50 Q90,58 88,68 M100,52 Q100,62 100,72 M105,50 Q110,58 112,68" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" fill="none"/><path d="M97,18 Q100,12 103,18" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" fill="none"/></svg></div>
+            <div class="ec-body">
+              <span class="ec-group-tag aves">Aves</span>
+              <h3 class="ec-name">Cendrawasih Merah</h3>
+              <em class="ec-latin">Paradisaea rubra</em>
+              <p class="ec-desc">
+                Burung surga paling ikonik dari Papua Barat dengan bulu merah terang yang memukau.
+                Jantan memiliki dua ekor kawat panjang dan melakukan tarian kawin yang sangat teatrikal —
+                bergelantungan terbalik sambil mengembangkan seluruh bulunya.
+              </p>
+              <div class="ec-facts">
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Panjang</span>
+                    <span>33 cm (+ ekor)</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Ekor Kawat</span>
+                    <span>hingga 50 cm</span>
+                  </div>
+                </div>
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Masa Hidup</span>
+                    <span>5–8 tahun</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Status</span>
+                    <span>NT (IUCN)</span>
+                  </div>
+                </div>
+              </div>
+              <div class="ec-unique">
+                🌟 <strong>Fakta Unik:</strong> Nama "cendrawasih" berasal dari kata Arab "Jannat" (surga). Pedagang rempah Eropa abad ke-16 percaya burung ini berasal dari surga karena tidak pernah melihatnya hidup — hanya bulunya yang diperdagangkan, tanpa kaki.
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 3: Harimau Sumatera -->
+          <article class="endemic-card">
+            <div class="ec-banner island-sumatera">
+              <div class="ec-animal-icon"><img src="./gallery-endemic/Sumatran_Tiger.jpg" alt="Harimau Sumatera" onerror="this.parentElement.innerHTML='🐯'"></div>
+              <span class="ec-island-tag">Sumatera</span>
+              <span class="ec-status crit">Kritis</span>
+            </div>
+            <div class="fc-silhouette"><svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><path d="M25,52 Q40,40 60,42 Q80,36 100,40 Q120,36 140,42 Q160,40 175,52 Q165,60 150,57 Q135,64 115,57 Q100,64 85,57 Q65,64 50,57 Q35,60 25,52 Z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/><ellipse cx="35" cy="46" rx="16" ry="11" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/><path d="M19,42 Q10,38 8,44 Q10,50 20,48" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/><path d="M55,57 L52,70 M75,59 L73,72 M125,57 L123,70 M145,57 L143,70" stroke="rgba(255,255,255,0.2)" stroke-width="2" fill="none"/></svg></div>
+            <div class="ec-body">
+              <span class="ec-group-tag mamalia">Mamalia</span>
+              <h3 class="ec-name">Harimau Sumatera</h3>
+              <em class="ec-latin">Panthera tigris sumatrae</em>
+              <p class="ec-desc">
+                Satu-satunya subspesies harimau yang tersisa di Indonesia dan terkecil di antara semua
+                subspesies harimau. Hidup di hutan hujan Sumatera yang terus menyusut akibat
+                perambahan dan perkebunan. Populasinya kurang dari 400 ekor.
+              </p>
+              <div class="ec-facts">
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Bobot</span>
+                    <span>75–140 kg</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Panjang</span>
+                    <span>2,2–2,5 m</span>
+                  </div>
+                </div>
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Populasi</span>
+                    <span>&lt; 400 ekor</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Wilayah</span>
+                    <span>Sumatera</span>
+                  </div>
+                </div>
+              </div>
+              <div class="ec-unique">
+                🌟 <strong>Fakta Unik:</strong> Harimau Sumatera adalah perenang handal — mereka memiliki selaput tipis di antara jari-jari kakinya. Mereka sering mengejar mangsa ke dalam sungai dan danau tanpa ragu.
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 4: Bekantan -->
+          <article class="endemic-card">
+            <div class="ec-banner island-kalimantan">
+              <div class="ec-animal-icon"><img src="./gallery-endemic/bekantan-kalimantan.jpg" alt="Bekantan" onerror="this.parentElement.innerHTML='🐵'"></div>
+              <span class="ec-island-tag">Kalimantan</span>
+              <span class="ec-status end">Terancam Punah</span>
+            </div>
+            <div class="fc-silhouette"><svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="24" r="15" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/><ellipse cx="100" cy="30" rx="8" ry="10" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/><path d="M88,37 Q82,46 80,62 Q88,64 93,57 L97,44 L103,44 L107,57 Q112,64 120,62 Q118,46 112,37 Z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/><path d="M88,42 Q72,48 60,56 Q65,63 74,58" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" fill="none"/><path d="M112,42 Q128,48 140,56 Q135,63 126,58" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" fill="none"/></svg></div>
+            <div class="ec-body">
+              <span class="ec-group-tag mamalia">Mamalia</span>
+              <h3 class="ec-name">Bekantan</h3>
+              <em class="ec-latin">Nasalis larvatus</em>
+              <p class="ec-desc">
+                Monyet endemik Kalimantan yang mudah dikenali dari hidungnya yang besar dan menjuntai
+                pada jantan dewasa. Hidung besar ini berfungsi sebagai resonator suara untuk menarik
+                betina. Bekantan adalah perenang alami dan sering melompat dari pohon ke air.
+              </p>
+              <div class="ec-facts">
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Bobot</span>
+                    <span>7–22 kg</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Panjang Hidung</span>
+                    <span>hingga 10 cm</span>
+                  </div>
+                </div>
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Masa Hidup</span>
+                    <span>13–20 tahun</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Habitat</span>
+                    <span>Mangrove & riparian</span>
+                  </div>
+                </div>
+              </div>
+              <div class="ec-unique">
+                🌟 <strong>Fakta Unik:</strong> Bekantan memiliki perut yang membuncit karena sistem pencernaan uniknya — mereka punya lambung multi-bilik seperti sapi untuk mencerna daun dan biji yang mengandung racun, makanan yang ditolak primata lain.
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 5: Elang Bondol -->
+          <article class="endemic-card">
+            <div class="ec-banner island-jawa">
+              <div class="ec-animal-icon"><img src="./gallery-endemic/elang-bondol.jpg" alt="Elang Bondol" onerror="this.parentElement.innerHTML='🦅'"></div>
+              <span class="ec-island-tag">DKI Jakarta</span>
+              <span class="ec-status nt">Hampir Terancam</span>
+            </div>
+            <div class="fc-silhouette"><svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><path d="M100,52 Q95,38 82,33 Q55,22 15,28 Q38,36 58,40 Q74,42 84,48 Q90,56 100,58 Q110,56 116,48 Q126,42 142,40 Q162,36 185,28 Q145,22 118,33 Q105,38 100,52 Z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/><circle cx="100" cy="32" r="11" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/><path d="M100,43 L94,63 L100,61 L106,63 Z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/><path d="M96,28 Q100,22 104,28" stroke="rgba(255,255,255,0.3)" stroke-width="1.5" fill="none"/></svg></div>
+            <div class="ec-body">
+              <span class="ec-group-tag aves">Aves</span>
+              <h3 class="ec-name">Elang Bondol</h3>
+              <em class="ec-latin">Haliastur indus</em>
+              <p class="ec-desc">
+                Elang pesisir dengan kepala dan dada putih bersih serta sayap coklat kemerahan.
+                Dipilih sebagai maskot resmi DKI Jakarta. Predator oportunistik yang memakan ikan,
+                katak, serangga besar, hingga sisa makanan di pasar ikan.
+              </p>
+              <div class="ec-facts">
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Bentang Sayap</span>
+                    <span>85–100 cm</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Bobot</span>
+                    <span>270–550 gram</span>
+                  </div>
+                </div>
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Habitat</span>
+                    <span>Pesisir, mangrove</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Maskot</span>
+                    <span>DKI Jakarta</span>
+                  </div>
+                </div>
+              </div>
+              <div class="ec-unique">
+                🌟 <strong>Fakta Unik:</strong> Elang Bondol adalah pencuri handal di dunia burung — mereka sering mengejar burung lain yang sudah menangkap ikan, memaksanya menjatuhkan mangsa, lalu menyambarnya di udara sebelum menyentuh air.
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 6: Kakatua Raja -->
+          <article class="endemic-card">
+            <div class="ec-banner island-maluku">
+              <div class="ec-animal-icon"><img src="./gallery-endemic/kakatua-raja-hitam-papua.jpg" alt="Kakatua Raja" onerror="this.parentElement.innerHTML='🦜'"></div>
+              <span class="ec-island-tag">Maluku & Papua</span>
+              <span class="ec-status vuln">Rentan</span>
+            </div>
+            <div class="fc-silhouette"><svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="30" r="16" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1.5"/><path d="M92,22 Q96,10 100,8 Q104,10 108,22" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="1.5"/><path d="M88,42 Q78,50 75,65 Q83,67 88,60 L95,48 L105,48 L112,60 Q117,67 125,65 Q122,50 112,42 Z" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1.5"/><path d="M88,46 Q72,50 62,58 Q67,65 76,60" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" fill="none"/><path d="M112,46 Q128,50 138,58 Q133,65 124,60" stroke="rgba(255,255,255,0.2)" stroke-width="1.5" fill="none"/></svg></div>
+            <div class="ec-body">
+              <span class="ec-group-tag aves">Aves</span>
+              <h3 class="ec-name">Kakatua Raja</h3>
+              <em class="ec-latin">Probosciger aterrimus</em>
+              <p class="ec-desc">
+                Kakatua terbesar di dunia dengan jambul hitam dramatis dan pipi merah cerah yang bisa
+                berubah warna sesuai emosi. Dikenal sebagai satu-satunya burung yang menggunakan alat
+                untuk membuat musik — jantan mengetuk batang pohon dengan ranting sebagai alat perkusi
+                dalam ritual kawin.
+              </p>
+              <div class="ec-facts">
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Panjang</span>
+                    <span>55–65 cm</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Masa Hidup</span>
+                    <span>hingga 80+ tahun</span>
+                  </div>
+                </div>
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Reproduksi</span>
+                    <span>1 telur per 2 thn</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Habitat</span>
+                    <span>Hutan hujan tropis</span>
+                  </div>
+                </div>
+              </div>
+              <div class="ec-unique">
+                🌟 <strong>Fakta Unik:</strong> Kakatua Raja adalah salah satu hewan dengan umur terpanjang — bisa hidup lebih dari 80 tahun. Di penangkaran, beberapa individu dilaporkan hidup melampaui usia 100 tahun.
+              </div>
+            </div>
+          </article>
+
+
+          <!-- KUPU-KUPU SAYAP BURUNG — Maluku -->
+          <article class="endemic-card">
+            <div class="ec-banner island-maluku">
+              <div class="ec-animal-icon"><img src="./gallery-endemic/kupu-kupu-wallace-maluku.jpg" alt="Kupu Sayap Burung Wallace" onerror="this.parentElement.innerHTML='🦋'"></div>
+              <span class="ec-island-tag">Maluku Utara</span>
+              <span class="ec-status crit">Kritis</span>
+            </div>
+            <div class="ec-body">
+              <span class="ec-group-tag aves">Serangga</span>
+              <h3 class="ec-name">Kupu Sayap Burung Wallace</h3>
+              <em class="ec-latin">Ornithoptera croesus</em>
+              <p class="ec-desc">
+                Kupu-kupu terbesar dan terindah endemik Maluku Utara yang ditemukan Alfred Russel Wallace pada 1859.
+                Jantan memiliki sayap hijau-emas berkilau yang hanya bisa ditemukan di hutan Pulau Bacan, Halmahera, 
+                dan beberapa pulau kecil di sekitarnya.
+              </p>
+              <div class="ec-facts">
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Bentang Sayap</span>
+                    <span>hingga 20 cm</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Status</span>
+                    <span>CR (IUCN)</span>
+                  </div>
+                </div>
+                <div class="ec-fact-row-mini">
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Habitat</span>
+                    <span>Hutan hujan Maluku</span>
+                  </div>
+                  <div class="ec-fact-mini">
+                    <span class="ff-label">Ancaman</span>
+                    <span>Perburuan & deforestasi</span>
+                  </div>
+                </div>
+              </div>
+              <div class="ec-unique">
+                🌟 <strong>Fakta Unik:</strong> Wallace menuliskan dalam jurnal ilmiahnya bahwa saat pertama melihat kupu-kupu ini, jantungnya berdebar kencang dan ia hampir pingsan karena keindahannya. Ini menjadi salah satu deskripsi penemuan spesies paling dramatis dalam sejarah biologi.
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FUN FACTS ===== -->
+    <section class="funfacts-section">
+      <div class="container">
+        <div class="section-head">
+          <p class="tag-label">Tahukah Kamu?</p>
+          <h2 class="heading-2">Indonesia dalam Angka</h2>
+          <p class="section-sub">Fakta mengagumkan tentang kekayaan fauna Nusantara</p>
+        </div>
+        <div class="funfacts-grid">
+          <div class="ff-card reveal">
+            <div class="ff-emoji">🐦</div>
+            <div class="ff-num">1.769</div>
+            <div class="ff-desc">Spesies burung tercatat di Indonesia — terbanyak ke-4 di dunia</div>
+          </div>
+          <div class="ff-card reveal">
+            <div class="ff-emoji">🦋</div>
+            <div class="ff-num">12%</div>
+            <div class="ff-desc">Spesies mamalia dunia ada di Indonesia, meski luasnya hanya 1,3% daratan Bumi</div>
+          </div>
+          <div class="ff-card reveal">
+            <div class="ff-emoji">🐠</div>
+            <div class="ff-num">2.827</div>
+            <div class="ff-desc">Spesies ikan air tawar endemik — menjadikan Indonesia nomor 1 di Asia</div>
+          </div>
+          <div class="ff-card reveal">
+            <div class="ff-emoji">🌿</div>
+            <div class="ff-num">515</div>
+            <div class="ff-desc">Spesies mamalia endemik yang tidak bisa ditemukan di negara lain manapun</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== BACK CTA ===== -->
+    <section class="back-cta">
+      <div class="container">
+        <h2>Masih Penasaran?</h2>
+        <p>Jelajahi lebih banyak fauna dari seluruh dunia di halaman utama Wildpedia.</p>
+        <a href="index.html#fauna" class="btn btn-glow">← Kembali ke Ensiklopedia</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="ft-brand">
+          <div class="logo">
+            <div class="logo-mark">🌿</div>
+            <div class="logo-words">
+              <span class="logo-wild">wild</span><span class="logo-pedia">pedia</span>
+            </div>
+          </div>
+          <p>Mendokumentasikan keanekaragaman fauna dunia — untuk generasi yang akan datang.</p>
+          <div class="ft-social">
+            <a href="#">🐦 Twitter</a>
+            <a href="#">📸 Instagram</a>
+            <a href="#">▶️ YouTube</a>
+          </div>
+        </div>
+        <nav class="ft-nav">
+          <h4>Navigasi</h4>
+          <a href="index.html">Beranda</a>
+          <a href="index.html#tentang">Tentang</a>
+          <a href="index.html#kategori">Kategori</a>
+          <a href="index.html#fauna">Ensiklopedia</a>
+          <a href="index.html#konservasi">Konservasi</a>
+          <a href="index.html#kontak">Kontak</a>
+          <a href="portfolio.html">🦚 Galeri Endemik</a>
+        </nav>
+        <div class="ft-col">
+          <h4>Kategori</h4>
+          <a href="#">🦁 Mamalia</a>
+          <a href="#">🦜 Aves</a>
+          <a href="#">🦎 Reptilia</a>
+          <a href="#">🐸 Amfibia</a>
+          <a href="#">🦈 Pisces</a>
+          <a href="#">🦋 Serangga</a>
+        </div>
+        <div class="ft-col">
+          <h4>Sumber Data</h4>
+          <a href="#">IUCN Red List</a>
+          <a href="#">WWF Indonesia</a>
+          <a href="#">LIPI / BRIN</a>
+          <a href="#">National Geographic</a>
+          <a href="#">iNaturalist</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Wildpedia – Ensiklopedia Fauna Dunia &nbsp;|&nbsp; Dibuat Oleh Ayung untuk kelestarian alam</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
